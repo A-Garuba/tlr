@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import Intro from './components/Intro';
+import Intro from './temp/components/Intro';
 
 export default function Home() {
   const [isEntered, setIsEntered] = useState(false);
@@ -9,12 +9,12 @@ export default function Home() {
 
   return (
     <>
-      <main className="flex min-h-dvh items-center mx-auto">
+      <main className="mx-auto flex min-h-dvh items-center">
         {!isEntered ? (
           <Intro onEnter={handleEnter} />
         ) : (
           <div className="bg-gray-900 text-white">
-            <div className="h-dvh flex items-center bg-black">
+            <div className="flex h-dvh items-center bg-black">
               <video
                 className="w-full object-cover"
                 autoPlay
@@ -25,7 +25,7 @@ export default function Home() {
             </div>
 
             <section id="about" className="my-12">
-              <h2 className="text-3xl font-bold mb-4">About AJ Ramos</h2>
+              <h2 className="mb-4 text-3xl font-bold">About AJ Ramos</h2>
               <p>
                 AJ Ramos made his MLB debut with the Miami Marlins in 2012,
                 striking out the first three major batters he faced—an
@@ -44,7 +44,7 @@ export default function Home() {
             </section>
 
             <section id="why" className="my-12">
-              <h2 className="text-3xl font-bold mb-4">Why The Locker Room?</h2>
+              <h2 className="mb-4 text-3xl font-bold">Why The Locker Room?</h2>
               <p>
                 In AJ&apos;s words, &quot;I&apos;ve spent my life devoted to
                 baseball, and now, I&apos;m on a mission to figure out who I am
@@ -58,7 +58,7 @@ export default function Home() {
             </section>
 
             <section id="episodes" className="my-12">
-              <h2 className="text-3xl font-bold mb-4">Episodes</h2>
+              <h2 className="mb-4 text-3xl font-bold">Episodes</h2>
               <div className="mb-6">
                 <h3 className="text-2xl font-semibold">
                   Episode 001: AJ Ramos
@@ -101,7 +101,7 @@ export default function Home() {
             </section>
 
             <section id="get-involved" className="my-12">
-              <h2 className="text-3xl font-bold mb-4">Get Involved</h2>
+              <h2 className="mb-4 text-3xl font-bold">Get Involved</h2>
               <p>
                 The Locker Room isn&apos;t just about listening—it&apos;s about
                 engaging. Follow AJ&apos;s journey, share your thoughts, and
@@ -114,15 +114,15 @@ export default function Home() {
             </section>
 
             <section id="subscribe" className="my-12">
-              <h2 className="text-3xl font-bold mb-4">Subscribe Today</h2>
+              <h2 className="mb-4 text-3xl font-bold">Subscribe Today</h2>
               <p>
                 Don&apos;t miss an episode! Subscribe to The Locker Room on your
                 favorite podcast platform and join AJ Ramos and his incredible
                 guests as they share the stories behind the spotlight.
               </p>
             </section>
-            <footer className="p-6 bg-gray-800 text-white">
-              <h2 className="text-2xl font-bold mb-4">Contact Us</h2>
+            <footer className="bg-gray-800 p-6 text-white">
+              <h2 className="mb-4 text-2xl font-bold">Contact Us</h2>
               <p>
                 Have questions, comments, or guest suggestions? Reach out to us
                 at{' '}
@@ -138,7 +138,7 @@ export default function Home() {
               <div className="mt-4">
                 <a
                   href="https://instagram.com/ajramos"
-                  className="text-blue-400 mr-4"
+                  className="mr-4 text-blue-400"
                 >
                   Instagram: @ajramos
                 </a>
