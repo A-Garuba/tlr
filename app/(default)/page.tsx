@@ -6,13 +6,19 @@ import Newsletter from '@/components/newsletter';
 import Zigzag from '@/components/zigzag';
 import Testimonials from '@/components/testimonials';
 import HeroVideo from '@/components/hero-video';
-import { useState } from 'react';
+import { useRef, useState } from 'react';
 import Intro from '@/components/intro';
 import Footer from '@/components/ui/footer';
 
 export default function Home() {
+  const heroRef = useRef<HTMLElement>(null);
   const [isEntered, setIsEntered] = useState(false);
   const handleEnter = () => setIsEntered(true);
+
+  const scrollToHero = () =>
+    heroRef.current?.scrollIntoView({
+      behavior: 'smooth',
+    });
 
   return (
     <>
@@ -21,8 +27,8 @@ export default function Home() {
           <Intro onEnter={handleEnter} />
         ) : (
           <>
-            <HeroVideo />
-            <Hero />
+            <HeroVideo onSkipPress={scrollToHero} />
+            <Hero ref={heroRef} />
             <Features />
             <Zigzag />
             <Testimonials />

@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export default function Footer() {
   return (
-    <footer>
+    <footer className="snap-end">
       <div className="py-12 md:py-16">
         <div className="mx-auto max-w-6xl px-4 sm:px-6">
           {/* Top area: Blocks */}

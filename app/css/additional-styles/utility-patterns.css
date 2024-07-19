@@ -28,7 +28,7 @@
 /* Buttons */
 .btn,
 .btn-sm {
-  @apply inline-flex items-center justify-center rounded-sm border border-transparent font-medium leading-snug transition duration-150 ease-in-out;
+  @apply inline-flex items-center justify-center rounded border border-transparent font-medium leading-snug transition duration-150 ease-in-out;
 }
 
 .btn {
