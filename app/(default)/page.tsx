@@ -16,7 +16,7 @@ export default function Home() {
 
   return (
     <>
-      <main className="grow">
+      <main className="flex h-dvh snap-y snap-mandatory flex-col overflow-y-scroll">
         {!isEntered ? (
           <Intro onEnter={handleEnter} />
         ) : (

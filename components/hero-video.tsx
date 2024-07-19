@@ -2,7 +2,7 @@ import React from 'react';
 
 const HeroVideo = () => {
   return (
-    <div className="flex h-dvh items-center bg-black">
+    <section className="flex h-dvh snap-center items-center bg-black">
       <video
         className="w-full object-cover"
         autoPlay
@@ -10,7 +10,7 @@ const HeroVideo = () => {
         muted
         src="/videos/hero-video.mp4"
       />
-    </div>
+    </section>
   );
 };
 

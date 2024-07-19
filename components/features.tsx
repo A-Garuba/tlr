@@ -1,6 +1,6 @@
 export default function Features() {
   return (
-    <section>
+    <section className="h-dvh snap-center">
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <div className="py-12 md:py-20">
           {/* Section header */}

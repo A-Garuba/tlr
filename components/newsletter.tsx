@@ -1,6 +1,6 @@
 export default function Newsletter() {
   return (
-    <section>
+    <section className="h-dvh snap-center">
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         {/* CTA box */}
         <div

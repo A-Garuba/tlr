@@ -34,14 +34,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${inter.variable} ${architects_daughter.variable} font-inter bg-black tracking-tight text-gray-200 antialiased`}
+        className={`${inter.variable} ${architects_daughter.variable} font-inter overflow-hidden bg-black tracking-tight text-gray-200 antialiased`}
       >
-        <div className="flex min-h-screen flex-col overflow-hidden">
-          {/* <Header /> */}
-          {children}
-          {/* <Banner /> */}
-          <CustomScroller />
-        </div>
+        {/* <Header /> */}
+        {children}
+        {/* <Banner /> */}
+        <CustomScroller />
       </body>
     </html>
   );

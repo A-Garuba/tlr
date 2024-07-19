@@ -3,7 +3,7 @@ import ModalVideo from '@/components/modal-video';
 
 export default function Hero() {
   return (
-    <section>
+    <section className="h-dvh snap-center">
       <div className="relative mx-auto max-w-6xl px-4 sm:px-6">
         {/* Illustration behind hero content */}
         <div
