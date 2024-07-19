@@ -22,10 +22,7 @@ export default function Testimonials() {
           {/* Testimonials */}
           <div className="mx-auto grid max-w-sm items-start gap-8 lg:max-w-none lg:grid-cols-3 lg:gap-6">
             {/* 1st testimonial */}
-            <div
-              className="flex h-full flex-col bg-gray-800 p-6"
-              data-aos="fade-up"
-            >
+            <div className="flex h-full flex-col bg-gray-800 p-6">
               <div>
                 <div className="relative mb-4 inline-flex flex-col">
                   <Image
@@ -63,11 +60,7 @@ export default function Testimonials() {
             </div>
 
             {/* 2nd testimonial */}
-            <div
-              className="flex h-full flex-col bg-gray-800 p-6"
-              data-aos="fade-up"
-              data-aos-delay="200"
-            >
+            <div className="flex h-full flex-col bg-gray-800 p-6">
               <div>
                 <div className="relative mb-4 inline-flex flex-col">
                   <Image
@@ -105,11 +98,7 @@ export default function Testimonials() {
             </div>
 
             {/* 3rd testimonial */}
-            <div
-              className="flex h-full flex-col bg-gray-800 p-6"
-              data-aos="fade-up"
-              data-aos-delay="400"
-            >
+            <div className="flex h-full flex-col bg-gray-800 p-6">
               <div>
                 <div className="relative mb-4 inline-flex flex-col">
                   <Image

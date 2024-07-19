@@ -3,10 +3,7 @@ export default function Newsletter() {
     <section className="h-dvh snap-center">
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         {/* CTA box */}
-        <div
-          className="relative bg-primary-600 px-8 py-10 md:px-12 md:py-16"
-          data-aos="fade-up"
-        >
+        <div className="relative bg-primary-600 px-8 py-10 md:px-12 md:py-16">
           {/* Background illustration */}
           <div
             className="pointer-events-none absolute right-0 top-0 -ml-40"

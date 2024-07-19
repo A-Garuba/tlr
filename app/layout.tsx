@@ -5,8 +5,6 @@ import { Inter, Architects_Daughter } from 'next/font/google';
 import Header from '@/components/ui/header';
 import Banner from '@/components/banner';
 
-import CustomScroller from '@/components/CustomScroller';
-
 const inter = Inter({
   subsets: ['latin'],
   variable: '--font-inter',
@@ -39,7 +37,6 @@ export default function RootLayout({
         {/* <Header /> */}
         {children}
         {/* <Banner /> */}
-        <CustomScroller />
       </body>
     </html>
   );

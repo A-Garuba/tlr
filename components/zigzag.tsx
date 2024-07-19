@@ -26,10 +26,7 @@ export default function Zigzag() {
             {/* 1st item */}
             <div className="items-center md:grid md:grid-cols-12 md:gap-6">
               {/* Image */}
-              <div
-                className="mx-auto mb-8 max-w-xl md:order-1 md:col-span-5 md:mb-0 md:w-full md:max-w-none lg:col-span-6"
-                data-aos="fade-up"
-              >
+              <div className="mx-auto mb-8 max-w-xl md:order-1 md:col-span-5 md:mb-0 md:w-full md:max-w-none lg:col-span-6">
                 <Image
                   className="mx-auto h-auto max-w-full md:max-w-none"
                   src={FeatImage01}
@@ -39,10 +36,7 @@ export default function Zigzag() {
                 />
               </div>
               {/* Content */}
-              <div
-                className="mx-auto max-w-xl md:col-span-7 md:w-full md:max-w-none lg:col-span-6"
-                data-aos="fade-right"
-              >
+              <div className="mx-auto max-w-xl md:col-span-7 md:w-full md:max-w-none lg:col-span-6">
                 <div className="md:pr-4 lg:pr-12 xl:pr-16">
                   <div className="font-architects-daughter mb-2 text-xl text-primary-600">
                     More speed. Less spend
@@ -92,10 +86,7 @@ export default function Zigzag() {
             {/* 2nd item */}
             <div className="items-center md:grid md:grid-cols-12 md:gap-6">
               {/* Image */}
-              <div
-                className="rtl mx-auto mb-8 max-w-xl md:col-span-5 md:mb-0 md:w-full md:max-w-none lg:col-span-6"
-                data-aos="fade-up"
-              >
+              <div className="rtl mx-auto mb-8 max-w-xl md:col-span-5 md:mb-0 md:w-full md:max-w-none lg:col-span-6">
                 <Image
                   className="mx-auto h-auto max-w-full md:max-w-none"
                   src={FeatImage02}
@@ -105,10 +96,7 @@ export default function Zigzag() {
                 />
               </div>
               {/* Content */}
-              <div
-                className="mx-auto max-w-xl md:col-span-7 md:w-full md:max-w-none lg:col-span-6"
-                data-aos="fade-left"
-              >
+              <div className="mx-auto max-w-xl md:col-span-7 md:w-full md:max-w-none lg:col-span-6">
                 <div className="md:pl-4 lg:pl-12 xl:pl-16">
                   <div className="font-architects-daughter mb-2 text-xl text-primary-600">
                     More speed. Less spend
@@ -158,10 +146,7 @@ export default function Zigzag() {
             {/* 3rd item */}
             <div className="items-center md:grid md:grid-cols-12 md:gap-6">
               {/* Image */}
-              <div
-                className="mx-auto mb-8 max-w-xl md:order-1 md:col-span-5 md:mb-0 md:w-full md:max-w-none lg:col-span-6"
-                data-aos="fade-up"
-              >
+              <div className="mx-auto mb-8 max-w-xl md:order-1 md:col-span-5 md:mb-0 md:w-full md:max-w-none lg:col-span-6">
                 <Image
                   className="mx-auto h-auto max-w-full md:max-w-none"
                   src={FeatImage03}
@@ -171,10 +156,7 @@ export default function Zigzag() {
                 />
               </div>
               {/* Content */}
-              <div
-                className="mx-auto max-w-xl md:col-span-7 md:w-full md:max-w-none lg:col-span-6"
-                data-aos="fade-right"
-              >
+              <div className="mx-auto max-w-xl md:col-span-7 md:w-full md:max-w-none lg:col-span-6">
                 <div className="md:pr-4 lg:pr-12 xl:pr-16">
                   <div className="font-architects-daughter mb-2 text-xl text-primary-600">
                     More speed. Less spend
