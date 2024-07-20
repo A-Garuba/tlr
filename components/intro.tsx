@@ -1,7 +1,12 @@
 import Image from 'next/image';
-import React from 'react';
+import React, { MouseEvent } from 'react';
 
 const Intro = ({ onEnter }: any) => {
+  const handleClick = (e: MouseEvent) => {
+    e.preventDefault();
+    onEnter();
+  };
+
   return (
     <div className="flex h-dvh w-full flex-col items-center justify-center p-4">
       <div className="absolute top-4 flex w-full justify-center font-mono text-gray-500">
@@ -36,7 +41,7 @@ const Intro = ({ onEnter }: any) => {
       <div className="mt-10">
         <button
           className="rounded-full border border-gray-500 bg-transparent px-4 py-2 transition-all duration-300 hover:scale-110 hover:bg-primary hover:bg-opacity-95 hover:text-black"
-          onClick={onEnter}
+          onClick={handleClick}
         >
           Enter
         </button>
