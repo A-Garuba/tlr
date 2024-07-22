@@ -17,9 +17,9 @@ const HeroVideo = ({ onSkipPress = () => {} }: any) => {
           src="/videos/hero-video.mp4"
         />
       </div>
-      <div className="absolute bottom-4 flex w-full justify-center">
+      <div className="absolute bottom-2 flex w-full justify-center">
         <button
-          className="btn bg-primary-900 bg-opacity-25"
+          className="btn-sm bg-primary-900 bg-opacity-25 hover:bg-primary hover:text-gray-800"
           onClick={handleClick}
         >
           Skip
