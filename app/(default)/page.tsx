@@ -29,7 +29,7 @@ export default function Home() {
           <>
             <HeroVideo onSkipPress={scrollToHero} />
             <Hero ref={heroRef} />
-            <Features />
+            {/* <Features /> */}
             <Zigzag />
             <Testimonials />
             <Newsletter />

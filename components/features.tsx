@@ -6,11 +6,10 @@ export default function Features() {
           {/* Section header */}
           <div className="mx-auto max-w-3xl pb-12 text-center md:pb-20">
             <h2 className="h2 mb-4">
-              The majority our customers do not understand their workflows.
+              Welcome to The Locker Room with AJ Ramos
             </h2>
             <p className="text-xl text-gray-400">
-              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-              officia deserunt mollit anim id est laborum.
+              Discover the Real Stories Behind the Stars
             </p>
           </div>
 
@@ -44,11 +43,15 @@ export default function Features() {
                   strokeWidth="2"
                 />
               </svg>
-              <h4 className="h4 mb-2">Instant Features</h4>
+              <h4 className="h4 mb-2">About AJ Ramos</h4>
               <p className="text-center text-lg text-gray-400">
-                Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                cupidatat.
+                AJ made his MLB debut with the Miami Marlins in 2012 striking
+                out the first three major batters he faced—an unprecedented feat
+                in Marlins&apos; history. AJ quickly rose to prominence leading
+                NL rookies in innings pitched breaking club records and becoming
+                an All-Star in 2016. But after a series of injuries forced him
+                into early retirement AJ found himself grappling with his
+                identity beyond baseball.
               </p>
             </div>
 
@@ -80,11 +83,16 @@ export default function Features() {
                   strokeLinecap="square"
                 />
               </svg>
-              <h4 className="h4 mb-2">Instant Features</h4>
+              <h4 className="h4 mb-2">Why The Locker Room?</h4>
               <p className="text-center text-lg text-gray-400">
-                Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                cupidatat.
+                In AJ&apos;s words &quot;I&apos;ve spent my life devoted to
+                baseball and now I&apos;m on a mission to figure out who I am
+                beyond the sport. Through conversations with amazing people
+                excelling in their crafts I hope to uncover not just their
+                professional insights but their personal stories and the lessons
+                they&apos;ve learned along the way. This podcast is about
+                finding contentment while staying driven understanding balance
+                and navigating life&apos;s ups and downs.&quot;
               </p>
             </div>
 
@@ -127,7 +135,7 @@ export default function Features() {
                   />
                 </g>
               </svg>
-              <h4 className="h4 mb-2">Instant Features</h4>
+              <h4 className="h4 mb-2">Episodes</h4>
               <p className="text-center text-lg text-gray-400">
                 Duis aute irure dolor in reprehenderit in voluptate velit esse
                 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat

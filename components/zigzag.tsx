@@ -11,9 +11,9 @@ export default function Zigzag() {
         <div className="border-t border-gray-800 py-12 md:py-20">
           {/* Section header */}
           <div className="mx-auto max-w-3xl pb-12 text-center md:pb-16">
-            <div className="m-2 mb-4 inline-flex rounded-full bg-green-200 px-3 py-1 text-sm font-semibold text-green-600">
+            {/* <div className="m-2 mb-4 inline-flex rounded-full bg-green-200 px-3 py-1 text-sm font-semibold text-green-600">
               Reach goals that matter
-            </div>
+            </div> */}
             <h1 className="h2 mb-4">One product, unlimited solutions</h1>
             <p className="text-xl text-gray-400">
               Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
